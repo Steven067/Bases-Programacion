@@ -3,11 +3,11 @@ public class Main {
 
         //TIPOS DE VARIABLES
 
-        //Numeros Enteros
+        //Numero Enteros
         byte variableByte = 100;
         short variableShort = 1000;
         int variableInt = 10000;
-        long variableLong = 100000l;
+        long variableLong = 100000L;
 
         //Numero Reales
         float variableFloat = 1.5555555f;
@@ -34,6 +34,10 @@ public class Main {
 
         System.out.println("Variable String:" + variableString);
         System.out.println("Variable Char: " + variableChar);
+
+
+        final int valorConstante = 100;
+        System.out.println("Valor Constante: " + valorConstante);
 
     }
 
