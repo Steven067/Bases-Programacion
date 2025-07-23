@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -36,8 +38,33 @@ public class Main {
         System.out.println("Variable Char: " + variableChar);
 
 
-        final int valorConstante = 100;
-        System.out.println("Valor Constante: " + valorConstante);
+        final int VALOR_CONSTANTE = 100;
+        System.out.println("Valor Constante: " + VALOR_CONSTANTE);
+
+
+        Scanner sn = new Scanner (System.in);
+
+        //Pedimos y mostramos un número entero
+        System.out.println("Ingrese un numero entero: ");
+        int valor = sn.nextInt();
+
+        System.out.println("Usted ingreso el numero : " + valor);
+
+        //Pedimos y mostramos un número decimal
+        System.out.println("Ingrese un numero decimal");
+        double decimal = sn.nextDouble();
+
+        //Limpiamos el buffer
+        sn.nextLine();
+
+        System.out.println("Usted ingreso el numero: " + decimal);
+
+        //Pedimos y mostramos una cadena
+        System.out.println("Ingrese su nombre:");
+        String nombre = sn.nextLine();
+
+        System.out.println("Tu nombre es: " + nombre);
+
 
     }
 
