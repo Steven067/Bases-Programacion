@@ -6,6 +6,7 @@ public class Main {
         //TIPOS DE VARIABLES
 
         //Numero Enteros
+
         byte variableByte = 100;
         short variableShort = 1000;
         int variableInt = 10000;
@@ -65,6 +66,26 @@ public class Main {
 
         System.out.println("Tu nombre es: " + nombre);
 
+
+        //Operadores Aritmeticos
+
+        //Operandos
+        int operador1 =  10;
+        int operador2 =  5;
+
+        //Realizo operaciones matematicas
+
+        int suma = operador1 + operador2;
+        int resta = operador1 - operador2;
+        int multiplicar = operador1 * operador2;
+        int division = operador1 / operador2;
+        int modulo = operador1 % operador2;
+
+        System.out.println("Suma: " + suma);
+        System.out.println("resta: " + resta);
+        System.out.println("La multiplicacion es: " + multiplicar);
+        System.out.println("Division: " + division);
+        System.out.println("Modulo:  " + modulo);
 
     }
 
